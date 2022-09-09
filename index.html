@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/ghosover_logo.png">
+    <title>Ghosover</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fonts/Anonymous Pro.ttf">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/ghosover_logo.png"></a>
+            <h1>GHOSOVER</h1>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="homepage"><a href="#">HOMEPAGE</a></li>
+                    <li><a href="pages/dev.html">DÉVELOPPEMENT</a></li>
+                    <li><a href="pages/tutos_dessins.html">TUTOS DESSINS</a></li>
+                    <li><a href="pages/sorties_videos.html">SORTIES DE VIDÉOS</a></li>
+                    <li><a href="pages/contactez_nous.html">CONTACTEZ-NOUS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <ul>
+                <br><br><br><br><br><br><br><br><br>
+                <h2>Luito & Nodewig</h2><br>
+                <li><span><b><center>Bienvenue de la part de l'équipe de Ghosover !</center></b></span></li>
+                <li><span><b><center>Abonne-toi sur notre chaîne YouTube !</center></b></span></li>
+                <li><span><b><center>Télécharge notre jeu Super Smash Jump !</center></b></span></li><br>
+            </ul>
+            <center>
+                <a href="#" class="boutton_rouge_yt">Télécharger Super Smash Jump</a>
+            </center><br>
+            <center>
+                <a href="https://www.youtube.com/c/Ghosover" class="button-download">La chaîne YouTube</a>
+            </center>
+        </div>
+    </section>
+    <section>
+        <center>
+            <iframe width="1080" height="607.5" src="https://www.youtube.com/embed/2PwTLUXer7k"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </center>
+    </section>
+    <section class="prem_partie">
+        <h1>- À propos -</h1>
+        <p>---------------------------------------------------------------------------------</p>
+        <div class="row">
+            <div class="propos-col">
+                <p>"Youtubeur et monteur de vidéo, j'adore les mangas et les jeux vidéos tel que Call Of Duty. Je fait des lives souvent sur Call Of Duty et j'organise des sessions de doublage de scènes de jeux vidéos ou d'animés."
+                </p>
+                <h3>Luito</h3><br>
+                <div class="images-col-ghosmix">
+                    <img src="images/Ghosmix.png">
+                </div>
+            </div>
+            <div class="propos-col">
+                <p>"Graphiste, codeur, Youtubeur, j'aime comme Luito les mangas et les jeux vidéos tel que StarMade, Minecraft, ou encore SubNautica. Je code des jeux en python ou en C++ et je construit des sites internets. Je suis aussi le graphiste de la chaîne YouTube Ghosover."
+                </p>
+                <h3>Nodewig</h3><br>
+                <div class="images-col-hasembler">
+                    <img src="images/Hasembler.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>© Ghosover,</li>
+            <li>Privacy,</li>
+            <li>Terms,</li>
+            <li>Status,</li>
+            <li>About</li>
+        </ul>
+        <br>
+        <h5>© copyright 2022, Inc. All right reserved | Photos and text by the <strong>GHOSOVER</strong> team | Designed by <strong>NODEWIG</strong></h5>
+    </footer>
+
+
+    <!-------JavaScript for toogle Menu-------->
+    <script>
+           var navLinks = document.getElementById("navLinks");
+
+           function showMenu() {
+                navLinks.style.right = "0";
+           }
+
+           function hideMenu() {
+                navLinks.style.right = "-200px";
+           }
+
+    </script>
+</body>
+</html>

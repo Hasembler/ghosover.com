@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/ghosover_logo.png">
+    <title>Ghosover - Tutoriels Dessins</title>
+    <link rel="stylesheet" href="css/style-tutos_dessins.css">
+    <link rel="stylesheet" href="fonts/Anonymous Pro.ttf">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="../images/ghosover_logo.png"></a>
+            <h1>GHOSOVER</h1>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="homepage"><a href="../index.html">HOMEPAGE</a></li>
+                    <li><a href="dev.html">DÉVELOPPEMENT</a></li>
+                    <li><a href="#">TUTOS DESSINS</a></li>
+                    <li><a href="sorties_videos.html">SORTIES DE VIDÉOS</a></li>
+                    <li><a href="contactez_nous.html">CONTACTEZ-NOUS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <ul>
+                <h2>Tutoriels de Dessin/Graphisme</h1>
+                <li><span>Prenez une feuille et un crayon et regardez <br> les vidéos tutos ci-dessous pour que <br> vous dessiniez comme un grand dessinateur</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="prem_partie">
+        <div class="row">
+            <div class="propos-col">
+                <h3><b>Matériel à utiliser</b></h3>
+                <p>Feuilles</p>
+                <p>Crytérium (mine 0.5mm)</p>
+                <p>Estompeur type "papier roulé en crayon"</p>
+                <p>Gomme Monochrome</p>
+                <p>Crayon 4B</p>
+                <p>Crayon 6B</p>
+                <p>Crayon 8B</p>
+                <p>Papier à grains (papier de verre)</p>
+
+            </div><br>
+            <div class="propos-col">
+                <h3><b>Mémo pour les crayons graphits</b></h3><br>
+                <p>Le 4B est utilisé principalement pour faire le contours des personnages mais aussi certaines ombres légères. Il est combiné à l'estompeur pour un rendu plus "propre" </p>
+                <p>Le 6B est utilisé pour faire la plupart des ombres des personnages : les ombres du cou, les ombres de plis de vêtements etc... On peut l'utiliser pour estomper l'oeuil et pour plus de détails tel que les gencives lorsque le personnage souris par example.</p>
+                <p>Le 8B est un crayons très gras utilisé pour faire des ombres fortes mais aussi pour dessiner des silouettes dans l'obscurité. On peut l'utiliser pour faire les ombres des narines sur des portraits réalistes ou encore pour faire des cheveux très noirs.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li>© Ghosover,</li>
+            <li>Privacy,</li>
+            <li>Terms,</li>
+            <li>Status,</li>
+            <li>About</li>
+        </ul>
+        <br>
+        <h5>© copyright 2022, Inc. All right reserved | Photos and text by the <strong>GHOSOVER</strong> team | Designed by <strong>NODEWIG</strong></h5>
+    </footer>
+
+
+    <!-------JavaScript for toogle Menu-------->
+    <script>
+           var navLinks = document.getElementById("navLinks");
+
+           function showMenu() {
+                navLinks.style.right = "0";
+           }
+
+           function hideMenu() {
+                navLinks.style.right = "-200px";
+           }
+
+    </script>
+</body>
+</html>
